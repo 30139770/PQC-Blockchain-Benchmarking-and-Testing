@@ -1,0 +1,16 @@
+--- PQC Blockchain Simulation (Dilithium2 via liboqs) ---
+
+[Address Generation]
+Public Key size: 1312 bytes
+Private Key size: 2528 bytes
+Blockchain Address: 0xc521fa94af53ad6fcb10dc85d085eaa0ff63b0d0af682fc5b47bd1733168c02f
+
+[Transaction Signing]
+Transaction Message: 'transfer(10000000000000000000, 0x8461278E68e6200034babEFc1f17787fDeeB5198)'
+Transaction Hash: 0xfe3420978890160a0fb0c02120eb48d04d33dbe3800edf2cddccfbc339138b51
+Signature size: 2420 bytes
+Time taken to sign: 0.1636 ms
+
+[Transaction Verification]
+Time taken to verify: 0.0370 ms
+Signature Valid: True
