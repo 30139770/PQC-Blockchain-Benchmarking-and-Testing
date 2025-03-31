@@ -46,7 +46,7 @@ def benchmark_sha256(iterations=10000, data_size=128):
         "data": result_data
     }]
 
-def benchmark_ecc(iterations=5000):
+def benchmark_ecc(iterations=10000):
     print("Benchmarking ECC with 10,000 iterations of random data...")
     sk = SigningKey.generate(curve=SECP256k1)
     vk = sk.verifying_key
@@ -98,7 +98,7 @@ def benchmark_ecc(iterations=5000):
 
     return [sign_results, verify_results]
 
-def benchmark_rsa(iterations=1000, key_size=2048):
+def benchmark_rsa(iterations=10000, key_size=2048):
     print("Benchmarking RSA-2048 with 10,000 iterations of random data...")
     key = RSA.generate(key_size)
     pub_key = key.publickey()
