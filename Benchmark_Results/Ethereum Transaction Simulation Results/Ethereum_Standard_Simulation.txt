@@ -1,0 +1,17 @@
+--- Ethereum Standard Simulation (ECDSA-secp256k1 via web3) ---
+
+[Ethereum Address Generation (ECDSA-secp256k1)]
+Public Address: 0x351F7385Aa54F725ABcD70E3E6e0f806D71A8481
+Private Key: af70e3f3877c81902cc79ed84e539cbccfe8f7a61c6395de6e8fff5571a5a2c3
+
+[Ethereum Transaction Signing (ECDSA-secp256k1)]
+Transaction Data: 'transfer(10000000000000000000, 0x8461278E68e6200034babEFc1f17787fDeeB5198)'
+Transaction Hash (Keccak-256): 2203ac467986916505c82fa77eefbc8ebf49e766d8f9ee3d35e3145df9204331
+Signature size: 65 bytes
+Signing Time: 3.9273 ms
+
+[Ethereum Transaction Verification (ECDSA-secp256k1)]
+Recovered Address: 0x351F7385Aa54F725ABcD70E3E6e0f806D71A8481
+Expected Address: 0x351F7385Aa54F725ABcD70E3E6e0f806D71A8481
+Verification Time: 10.5003 ms
+Signature Valid: True
