@@ -1,0 +1,4 @@
+Algorithm          | Operation | Iterations | Average_ms | Min_ms   | Max_ms   | Stdev_ms
+-------------------+-----------+------------+------------+----------+----------+---------
+CRYSTALS-Dilithium | Sign      | 100        | 0.108514   | 0.059800 | 0.489300 | 0.053434
+CRYSTALS-Dilithium | Verify    | 100        | 0.091483   | 0.037400 | 2.291001 | 0.274789
